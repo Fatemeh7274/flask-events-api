@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Greeting App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .greeting {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .language {
+            font-style: italic;
+            color: #666;
+        }
+        .visit-count {
+            margin-top: 30px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Random Greeting</h1>
+    <div class="greeting">{{ greeting }}</div>
+    <div class="language">({{ language }})</div>
+    <div class="visit-count">Total visits: {{ visit_count }}</div>
+</body>
+</html>
