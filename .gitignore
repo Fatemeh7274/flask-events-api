@@ -1,7 +1,8 @@
-# Terraform
+# terraform
 .terraform/
 *.tfstate
-*.tfstate.backup
+*.tfstate.*
+*.backupp
 
 # Python
 __pycache__/
